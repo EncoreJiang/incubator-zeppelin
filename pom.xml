@@ -98,6 +98,8 @@
     <module>flink</module>
     <module>ignite</module>
     <module>kylin</module>
+    <module>presto</module>
+    <module>mysql</module>
     <module>lens</module>
     <module>cassandra</module>
     <module>zeppelin-web</module>
