@@ -43,7 +43,7 @@ public class PrestoInterpreter extends Interpreter {
 
   static {
     Interpreter.register(
-      "presto",
+      "sql",
       "presto",
       PrestoInterpreter.class.getName(),
       new InterpreterPropertyBuilder()

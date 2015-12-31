@@ -412,6 +412,7 @@ public class ZeppelinConfiguration extends XMLConfiguration {
         + "org.apache.zeppelin.postgresql.PostgreSqlInterpreter,"
         + "org.apache.zeppelin.kylin.KylinInterpreter,"
         + "org.apache.zeppelin.presto.PrestoInterpreter,"
+        + "org.apache.zeppelin.cougardb.CougardbInterpreter,"
         + "org.apache.zeppelin.mysql.MySqlInterpreter"),
     ZEPPELIN_INTERPRETER_DIR("zeppelin.interpreter.dir", "interpreter"),
     ZEPPELIN_INTERPRETER_CONNECT_TIMEOUT("zeppelin.interpreter.connect.timeout", 30000),
